@@ -1,0 +1,39 @@
+.App {
+  height: calc(100vh - 90px);
+  background: grey;
+}
+
+.outerWrap {
+  background: #131313;
+  height: 100vh;
+  min-height: 100%;
+}
+
+.musicControls {
+  background: #282828;
+  text-align: center;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.navBar {
+  width: 250px;
+  height: 100%;
+  background: #040404;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+/*# sourceMappingURL=App.css.map */
