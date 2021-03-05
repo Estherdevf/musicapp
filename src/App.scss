@@ -30,12 +30,28 @@ $greenMain: #1db954;
 .navBar{
    width: 240px;
    height:100%;
-  padding: 10px 10px 0;
-  background: $greyDark; 
-  display: flex;
+   padding: 10px 10px 0;
+   background: $greyDark; 
+   display: flex;
    flex-direction: column;
   .logo{
     padding:1.5rem 0.8rem;
+    
+  }
+  li.new-playlist{
+    bottom: 90px;
+    position: absolute;
+  }
+  i {
+    margin-right: 5px;
+    transform: translateY(1px);
+    &:before {
+      font-size: 20px;
+    }
+  }
+  span {
+    color: #999;
+    font-weight: 300;
   }
 }
  
@@ -83,26 +99,26 @@ ul{
   }
 }
 
-// .playIcon{
-//   opacity: 0;
-//   width: 40px;
-//   height: 40px;
-//   display: flex;
-//   overflow: hidden;
-//   border-radius: 50%;
-//   background: $greenMain;
-//   right:1.2rem;
-//   margin-left: auto;
-//   bottom: 1.2rem;
-//   svg{
-//     margin: auto;
-//   }
+ .playIcon{
+   opacity: 0;
+   width: 40px;
+   height: 40px;
+   display: flex;
+   overflow: hidden;
+   border-radius: 50%;
+   background: $greenMain;
+   right:1.2rem;
+   margin-left: auto;
+   bottom: 1.2rem;
+  svg{
+    margin: auto;
+   }
 
-// }
+ }
 
 .playlistPage {
   display: flex;
-  background-color: rgba( 214 ,214 ,214);
+  background-color: rgba( 214 ,214 ,214, 1);
   .mainInner{
     padding: 0.5rem 2rem;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.5)) , 
@@ -296,7 +312,7 @@ ul{
    
     .cardImage{
       height: 160px;
-      box-shadow: 0 10px 0 rgba( 0, 0, 0, 0.3),0 1px 2px 0 rgba( 0 ,0 ,0.2, );
+      box-shadow: 0 10px 0 rgba( 0, 0, 0, 0.3), 0 1px 2px 0 rgba( 0 ,0 ,0,0.2 );
       img{
         width: 100%;
         height: 100%;
@@ -372,6 +388,15 @@ ul.songList {
    }
   cursor: pointer;
  }
+
+ .modal-content {
+  position: relative;
+  width: 400px;
+  background: #211f27;
+  border-radius: 4px;
+  padding: 25px;
+ height: 50;
+}
  
 
  
