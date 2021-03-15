@@ -107,6 +107,7 @@ ul{
    overflow: hidden;
    border-radius: 50%;
    background: $greenMain;
+   color: #fff;
    right:1.2rem;
    margin-left: auto;
    bottom: 1.2rem;
@@ -215,6 +216,8 @@ ul{
   position: relative;
   border-top: 1px solid $greyNav;
 
+ 
+
   .skip-btn{
   background: none;
   border: none;
@@ -240,8 +243,9 @@ ul{
   font-size: 24px;
   cursor: pointer;
   }
-  
 }
+  
+
 
 .upperNav{
   background:rgba(9, 9, 9, 0.78);

@@ -9,13 +9,15 @@ const Playlists = (props) => {
     const audioEl = useRef(null);
     const [isPlaying, setIsPlaying] = useState(false);
 
-    useEffect(() => {
-        if (isPlaying) {
-            audioEl.current.play();
-        } else {
-            audioEl.current.pause();
-        }
-    });
+     useEffect(() => {
+         if (isPlaying) {
+             audioEl.current.play();
+         } else {
+             audioEl.current.pause();
+         }
+     });
+
+    
 
 
     return (

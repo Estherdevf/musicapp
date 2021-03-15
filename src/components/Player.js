@@ -1,5 +1,4 @@
 import React, {useState, useEffect, useRef} from 'react'
-import PlayerDetails from "./PlayerDetails"
 import PlayerControls from "./PlayerControls"
 
 function Player(props) {

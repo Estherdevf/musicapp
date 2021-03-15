@@ -4,7 +4,7 @@ import logo from '../images/log.png';
 import { ReactComponent as HomeIcon } from "../svgs/home.svg";
 import { ReactComponent as SearchIcon } from "../svgs/search.svg"
 import { ReactComponent as LibraryIcon } from "../svgs/library.svg"
-import { BrowserRouter as Router, Link } from 'react-router-dom'
+import { BrowserRouter as Link } from 'react-router-dom'
 // import Modal from './Modal'
 
 

@@ -36,7 +36,7 @@ function App() {
         />
        </Router>
       </div>
-      <div className="musicControls">
+      <div className="musicControl">
       <Player
         currentSongIndex={currentSongIndex}
         setCurrentSongIndex={setCurrentSongIndex}

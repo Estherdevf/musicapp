@@ -14,17 +14,17 @@ const Categories = (props) => {
     const dataCategories = [
         {
             id: 1,
-            name: 'Ivoiry coast music',
+            name: 'Musique Ivoirienne',
         },
 
         {
             id: 2,
-            name: 'Nigeria music',
+            name: 'Musique Nigeriane',
         },
 
         {
             id: 3,
-            name: 'Congolaise music',
+            name: 'Music Congolaise ',
         },
 
     ]
